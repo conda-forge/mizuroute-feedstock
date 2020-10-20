@@ -5,9 +5,13 @@ Home: http://github.com/ncar/mizuroute
 
 Package license: GPL-3.0-or-later
 
-Feedstock license: BSD-3-Clause
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/mizuroute-feedstock/blob/master/LICENSE.txt)
 
 Summary: Stand-alone streamflow routing model 
+
+Development: https://github.com/ncar/mizuroute
+
+Documentation: http://mizuroute.readthedocs.io/
 
 Stand-alone mizuRoute is a post-processor of runoff output from a hydrologic model
 or Land surface model to produce streamflow estimates in the river network provided
