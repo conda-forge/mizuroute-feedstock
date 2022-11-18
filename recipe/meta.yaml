@@ -1,4 +1,4 @@
-{% set version = "1.2.1" %}
+{% set version = "1.2.2" %}
 
 package:
   name: mizuroute
@@ -6,7 +6,7 @@ package:
 
 source:
   url: https://github.com/ncar/mizuroute/archive/v{{ version }}.tar.gz
-  sha256: 37809ffb530469aa12802f7863d9f682d9ce55735f5fd87b33de187fc7c746f7
+  sha256: 0cf0edb4264963e848c571575781a345d6492b2e1d2b4a46ef5f00ba617b3c9b
   patches:
     - make.patch
 
