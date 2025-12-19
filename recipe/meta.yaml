@@ -1,4 +1,4 @@
-{% set version = "1.2.1" %}
+{% set version = "3.0.1" %}
 
 package:
   name: mizuroute
@@ -6,7 +6,7 @@ package:
 
 source:
   url: https://github.com/ncar/mizuroute/archive/v{{ version }}.tar.gz
-  sha256: 37809ffb530469aa12802f7863d9f682d9ce55735f5fd87b33de187fc7c746f7
+  sha256: ccc8a0cb6fa3ee99c3bb3a6465f0ba65e9446c4ecb9655a0d5e48ef181e33f8a
   patches:
     - make.patch
 
@@ -17,6 +17,7 @@ build:
 requirements:
   build:
     - {{ compiler('fortran') }}
+    - {{ stdlib("c") }}
   host:
     - netcdf-fortran
   run:
