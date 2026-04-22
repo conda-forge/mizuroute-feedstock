@@ -1,19 +1,18 @@
-cdt_name:
-- cos6
+c_stdlib:
+- sysroot
+c_stdlib_version:
+- '2.17'
 channel_sources:
-- conda-forge,defaults
+- conda-forge
 channel_targets:
 - conda-forge main
 docker_image:
-- quay.io/condaforge/linux-anvil-comp7
+- quay.io/condaforge/linux-anvil-x86_64:alma9
 fortran_compiler:
 - gfortran
 fortran_compiler_version:
 - '7'
 netcdf_fortran:
-- '4.5'
-pin_run_as_build:
-  netcdf-fortran:
-    max_pin: x.x
+- '4.6'
 target_platform:
 - linux-64
